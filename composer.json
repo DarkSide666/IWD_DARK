@@ -1,0 +1,21 @@
+{
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "license": [
+    "proprietary"
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.firegento.com"
+    }
+  ],
+  "extra": {
+    "magento-root-dir": "./",
+    "magento-deploystrategy": "copy",
+    "magento-force": true
+  },
+  "require": {
+    "mozgbrasil/magento-iwd-opc": "dev-master"
+  }
+}
