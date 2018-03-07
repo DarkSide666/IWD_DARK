@@ -158,6 +158,29 @@
 					</fields>
 				</global>
 
+				<!-- Shopo -->
+				<shopo translate="label">
+					<label>Shopo Customization</label>
+					<sort_order>15</sort_order>
+					<show_in_default>1</show_in_default>
+					<show_in_website>1</show_in_website>
+					<show_in_store>1</show_in_store>
+					<expanded>1</expanded>
+					<fields>
+						<show_middle_name>
+							<label>Show middle name?</label>
+							<frontend_type>select</frontend_type>
+							<source_model>adminhtml/system_config_source_yesno</source_model>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+							<validate>required-entry</validate>
+						</show_middle_name>
+					</fields>
+				</shopo>
+				<!-- /Shopo -->
+
 				<default translate="label">
 					<label>Default Settings</label>
 					<sort_order>20</sort_order>
@@ -174,7 +197,7 @@
 							<sort_order>10</sort_order>
 							<show_in_default>1</show_in_default>
 						</shipping -->
-						
+
 						<payment translate="label">
 							<label>Default Payment Method</label>
 							<frontend_type>select</frontend_type>
@@ -185,7 +208,7 @@
 						<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</payment>
-						
+
 						<subscribe>
 							<label>Show Subscribe to Newsletter</label>
 							<frontend_type>select</frontend_type>
@@ -196,7 +219,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</subscribe>
-						
+
 						<subscribe_default>
 							<label>Check Subscribe to Newsletter by default</label>
 							<frontend_type>select</frontend_type>
@@ -207,7 +230,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</subscribe_default>
-						
+
 						<show_shipping>
 							<label>Show Shipping Address Form</label>
 							<frontend_type>select</frontend_type>
@@ -218,8 +241,8 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</show_shipping>
-						
-						
+
+
 						<terms_type>
 							<label>Terms and Conditions Output type</label>
 							<frontend_type>select</frontend_type>
@@ -230,7 +253,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</terms_type>
-						
+
 						<comment>
 							<label>Show comment field? </label>
 							<frontend_type>select</frontend_type>
@@ -241,7 +264,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</comment>
-						
+
 					<discount>
 							<label>Show discount form? </label>
 							<frontend_type>select</frontend_type>
@@ -252,7 +275,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</discount>
-						
+
 					</fields>
 				</default>
 
@@ -304,7 +327,7 @@
                         </city_file>
 					</fields>
 				</geo>
-					
+
 				<!--<paypal>-->
 					<!--<label>Paypal Express LightBox</label>-->
 					<!--<sort_order>40</sort_order>-->
@@ -335,7 +358,7 @@
 						<!---->
 					<!--</fields>-->
 				<!--</paypal>-->
-				
+
 				<paypallogin>
 					<label>Log in with PayPal</label>
 					<sort_order>50</sort_order>
@@ -353,7 +376,7 @@
 							<show_in_store>1</show_in_store>
 							<comment><![CDATA[<span>To enable Log in with PayPal please add your SSL secured website to the PayPal whitelist. It is easy to setup by visiting <a href='https://developer.paypal.com/webapps/developer/docs/integration/direct/log-in-with-paypal/' target="_blank">this url</a> and following the instructions. After you are whitelisted you can enable your customers to Log in with PayPal.</span>]]></comment>
 						</status>
-						
+
 						<clientid translate="label">
 							<label>Client ID</label>
 							<frontend_type>text</frontend_type>
@@ -362,7 +385,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</clientid>
-						
+
 						<secret translate="label">
 							<label>Secret</label>
 							<frontend_type>text</frontend_type>
@@ -371,7 +394,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</secret>
-						
+
 						<sandbox translate="label">
 							<label>Sandbox</label>
 							<frontend_type>select</frontend_type>
@@ -381,7 +404,7 @@
 							<show_in_website>1</show_in_website>
 							<show_in_store>1</show_in_store>
 						</sandbox>
-						
+
 					</fields>
 				</paypallogin>
 
